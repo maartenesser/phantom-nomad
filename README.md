@@ -1,1 +1,2 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+#Phantom Nomad Website
+Website to creat a comunity for expads and help them to settle in different countries.
