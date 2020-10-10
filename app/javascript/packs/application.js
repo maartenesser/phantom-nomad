@@ -21,9 +21,21 @@ require("channels")
 // Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
 // WRITE YOUR OWN JS STARTING FROM HERE 👇
 // ----------------------------------------------------
-
 // External imports
 import "bootstrap";
+import "jquery";
+import "lity";
+import AOS from "aos";
+import onscroll from "./onscroll";
+
+
+AOS.init({
+    disable: 'mobile',
+    duration: 600,
+    once: true
+});
+
+onscroll();
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
